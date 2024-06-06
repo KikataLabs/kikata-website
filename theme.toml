@@ -11,5 +11,5 @@ features = ["secure", "fast", "search", "dark mode", "widgets"]
 
 # If the theme has a single author
 [author]
-  name = "George Cushen"
-  homepage = "https://georgecushen.com/"
+  name = "KIKATA"
+  homepage = "https://kikata.com/"

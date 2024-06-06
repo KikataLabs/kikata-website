@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: light
-  color: indigo
+  mode: dark
+  color: zinc
 
 # SEO
 marketing:
@@ -31,23 +31,23 @@ header:
   navbar:
     enable: true
     blox: "navbar"
-    align: "center"
+    align: "right"
     fixed_to_top: true
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
-    button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
-    show_search: true
-    show_theme_chooser: true
+      filename: "kikata-logo.svg"
+    #button:
+    #  enable: true
+    #  text: "Get Started"
+    #  url: "https://hugoblox.com/templates/"
+    #show_search: true
+    #show_theme_chooser: true
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} Kikata Labs LLC'
 
 # Localization
 locale:
