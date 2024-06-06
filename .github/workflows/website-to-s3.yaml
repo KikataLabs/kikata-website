@@ -1,11 +1,11 @@
-name: Hugo S3
+name: Deploy site to S3
 
 on:
-  workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
