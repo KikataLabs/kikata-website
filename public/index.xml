@@ -14,26 +14,38 @@
     
     <item>
       <title>Home</title>
-      <link>http://localhost:1313/index-orig/</link>
+      <link>http://localhost:1313/_index-orig/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/index-orig/</guid>
+      <guid>http://localhost:1313/_index-orig/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Privacy</title>
+      <title>Privacy Policy</title>
       <link>http://localhost:1313/privacy/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/privacy/</guid>
-      <description>&lt;p&gt;Add your company privacy policy here&amp;hellip;&lt;/p&gt;
+      <description>&lt;p&gt;At KIKATA, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you visit our website.
+Information Collection and Use&lt;/p&gt;
+&lt;p&gt;We do not collect any personal information from visitors to our website. We do not use cookies, web beacons, or any other tracking technologies to gather data about our website visitors.&lt;/p&gt;
+&lt;h4 id=&#34;third-party-disclosure&#34;&gt;Third-Party Disclosure&lt;/h4&gt;
+&lt;p&gt;We do not share, sell, or otherwise disclose any information to third parties.&lt;/p&gt;
+&lt;h4 id=&#34;data-security&#34;&gt;Data Security&lt;/h4&gt;
+&lt;p&gt;Since we do not collect any personal information from our website visitors, there is no need to implement data security measures.&lt;/p&gt;
+&lt;h4 id=&#34;childrens-privacy&#34;&gt;Children&amp;rsquo;s Privacy&lt;/h4&gt;
+&lt;p&gt;Our website is not intended for children under the age of 13, and we do not knowingly collect personal information from children.&lt;/p&gt;
+&lt;h4 id=&#34;changes-to-this-privacy-policy&#34;&gt;Changes to this Privacy Policy&lt;/h4&gt;
+&lt;p&gt;We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the updated version will be effective as soon as it is accessible.&lt;/p&gt;
+&lt;h4 id=&#34;contact-us&#34;&gt;Contact Us&lt;/h4&gt;
+&lt;p&gt;If you have any questions or concerns about this Privacy Policy, please contact us at &lt;a href=&#34;mailto:privacy@kikata.com&#34;&gt;privacy@kikata.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Terms of Service</title>
-      <link>http://localhost:1313/terms/</link>
+      <link>http://localhost:1313/old-terms/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/terms/</guid>
+      <guid>http://localhost:1313/old-terms/</guid>
       <description>&lt;p&gt;Add your company legal terms here&amp;hellip;&lt;/p&gt;
 </description>
     </item>
@@ -251,7 +263,7 @@
 
 
 
-&lt;div id=&#34;chart-423958671&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-198572436&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -269,7 +281,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-423958671&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-198572436&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

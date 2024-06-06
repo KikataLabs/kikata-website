@@ -49,6 +49,11 @@ footer:
   copyright:
     notice: '© {year} Kikata Labs LLC'
 
+# Features
+features:
+  privacy_pack:
+    enable: true
+
 # Localization
 locale:
   date_format: 'Jan 2, 2006'

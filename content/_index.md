@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: "Connected Intelligence"
+      title: "![alt](kikata-logo.svg) Connected Intelligence"
       text: "Connected Devices and IoT Platform"
      # primary_action:
      #   text: Get Started
@@ -20,17 +20,18 @@ sections:
      #   text: Read the docs
      #   url: https://docs.hugoblox.com
       announcement:
-        text: "More information coming soon. . . "
-        link:
-          text: "More Todd"
-          url: "/blog/"
+        text: "More Coming Soon. . . "
+      #  link:
+      #    text: "Read more"
+      #    url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
-      iamge: kikata-logo.svg
+      foreground:
+        image: kikata-logo.svg
       background:
         color: "navy"
         image:

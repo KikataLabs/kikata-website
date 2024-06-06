@@ -22,7 +22,7 @@ sections:
       announcement:
         text: "More information coming soon. . . "
         link:
-          text: "Read more"
+          text: "Read more orig"
           url: "/blog/"
     design:
       spacing:
